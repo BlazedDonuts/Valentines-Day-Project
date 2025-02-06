@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(248, 221, 242);
+    
+    padding: 20px;
+}
+
+.main-browser {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95%; 
+    min-height: 90vh;
+    background-color: #f7e8cc;
+    border: 5px solid rgb(87, 46, 29);
+    border-radius: 20px;
+    box-shadow: 10px 10px 0 3px rgb(87, 46, 29);
+}
+
+.line {
+    width: 100%; /* Full width of the container */
+    height: 6px; /* Thickness of the line */
+    background-color: rgb(87, 46, 29);
+    margin: 10px 0 20px 0; /* Space above and below the line */
+    position: relative;
+    top: -300px;
+}
+
+.control-box {
+    display: inline-block;
+    height: 60px;
+    width: 14%;
+    position: relative;
+    left: 86%;
+    top: -65px;
+    font-size: 45px;
+}
+
+.underscore {
+    position: relative;
+    top: -1px;
+    font-family: "Press Start 2P";
+
+}
+
+.close {
+    position: relative;
+    top: 4px;
+    font-family: "Press Start 2P";
+}
+
+.box {
+    font-weight: 900;
+    position: relative;
+    top: -2px;
+}
