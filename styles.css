@@ -71,6 +71,7 @@ body {
 
 .music-box {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     border: 3px solid rgb(87, 46, 29);
@@ -91,7 +92,26 @@ body {
     width: 10%;
     aspect-ratio: 1 / 1;
     position: relative;
-    top: 15px;
+    top: 5px;
     font-size: 25px;
+}
+
+#progress-bar {
+    width: 80%;
+    height: 10px;
+    margin-bottom: 10px;
+    appearance: none;
+    background: #ddd;
+    border-radius: 5px;
+}
+
+#progress-bar::-webkit-progress-bar {
+    background: rgb(87, 46, 29);
+    border-radius: 5px;
+}
+
+#progress-bar::-webkit-progress-value {
+    background: white;
+    border-radius: 5px;
 }
 
